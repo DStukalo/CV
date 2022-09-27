@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+a {
+  font: inherit; 
+  color: inherit;
+}
+
+.wrapper {
+
+}
+
+.header {
+  margin-top: 18px;
+  margin-bottom: 30px;
+  width: 77vw;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.header__desq {
+  width: 56%;
+  margin-top: 128px;
+  color: #000000;
+  text-align: end;
+}
+
+.header__title {
+font-weight: 700;
+font-size: 34px;
+text-transform: uppercase;
+color: #2f3952; 
+}
+
+.header__subtitle {
+  font-size: 22px;
+}
+
+.header__content-right {
+  margin-top: 28px;
+  width: 33%;
+}
+
+.header__content-right-image img {
+  width: 200px;
+  height: 200px;
+}
+
+.main-content {
+  margin-top: 10px; 
+  display: flex;
+  justify-self: start;
+}
+
+.main-content__left{
+  width: 51%;
+  color: #2f3952;
+}
+
+.main-content__right {
+  width: 43%;
+  margin-top: 5px;
+  color: #2f3952;
+}
+
+.information {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about-me, .language, .education, .contacts {
+  text-align: justify;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+.information,  .skills, .projects {
+  text-align: justify;
+  margin-bottom: 30px;
+  line-height: 1.5rem;
+}
+
+.section-title {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #2f3952;
+}
+
+.section-subtitle {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2f3952;
+}
+
+.education__item-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.education__item {
+  margin-bottom: 10px;
+}
+
+.education__item-desq {
+font-size: 12;
+font-weight: 300;
+opacity: 70%;
+}
+
+.contact__list {
+  display: flex;
+}
+
+.contact__list-nolink {
+width: 250px;
+}
+
+.contact__item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.contact__item span {
+  margin-left: 15%;
+}
+
+
+.contact__item_phone::before {
+  position: absolute;
+  content: " ";
+  background-image: url('./icon_phone.svg');
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.contact__item_location::before {
+  position: absolute;
+  content: " ";
+  background-image: url('./icon_location.svg');
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.contact__item_mail::before {
+  position: absolute;
+  content: " ";
+  background-image: url('./icon-gmail.svg');
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.contact__item_linkedin::before {
+  position: absolute;
+  content: " ";
+  background-image: url('./icon_linkedin.svg');
+  top: 0;
+  left: -30px;
+  height: 30px;
+  width: 30px;
+}
+
+.contact__item_github::before {
+  position: absolute;
+  content: " ";
+  background-image: url('./icon-github.png');
+  top: 0;
+  left: -30px;
+  height: 30px;
+  width: 30px;
+}
+
+.projects__item {
+  margin-bottom: 10px;
+}
+
+.projects__item-list  {
+  list-style: decimal;
+}
+
+.projects__item-item {
+  margin-left: 2%;
+}
